@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chef's Favourite Meals Order</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="background-image"></div>
+
+    <div class="container">
+      <div>
+        <h1>Chef's Favorite Meals</h1>
+      </div>
+      <div class="buttonscontainer">
+        <button onclick="takeOrder()">Place an Order</button>
+        <button onclick="displayOrders()">Display Incomplete Orders</button>
+      </div>
+    </div>
+
+    <div id="orderDetails" class="hidden">
+      <h2>Order Details</h2>
+      <p><strong>Order Number:</strong> <span id="orderNumber"></span></p>
+      <p><strong>Description:</strong> <span id="mealDescription"></span></p>
+      <p><strong>Status:</strong> <span id="status"></span></p>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

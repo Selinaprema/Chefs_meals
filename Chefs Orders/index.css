@@ -1,0 +1,70 @@
+@font-face {
+  font-family: charlotte;
+  src: url(Charlotte.otf);
+}
+
+body {
+  background-image: url(Ingredients_background.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: #2e473d;
+  width: 600px;
+  height: 300px;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: charlotte;
+  font-size: 80px;
+  color: #ffffff;
+}
+
+.buttonscontainer {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: -200px;
+  margin-left: 30px;
+  padding-top: -200px;
+  padding-bottom: 25px;
+}
+
+button {
+  background-color: #ffffff;
+  color: #2e473d;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: -70px;
+}
+
+button:hover {
+  background-color: #5b8461;
+}
+
+#orderDetails {
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
